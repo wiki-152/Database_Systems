@@ -1,0 +1,82 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wiki8\\Desktop\\DB\\22i-2469_22i-8808_Project\\Database_Systems_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE12582-5F3C-439B-A17F-B2B8CC34A13C}|Database_Systems_Project.csproj|c:\\users\\wiki8\\desktop\\db\\22i-2469_22i-8808_project\\database_systems_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE12582-5F3C-439B-A17F-B2B8CC34A13C}|Database_Systems_Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE12582-5F3C-439B-A17F-B2B8CC34A13C}|Database_Systems_Project.csproj|c:\\users\\wiki8\\desktop\\db\\22i-2469_22i-8808_project\\database_systems_project\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DE12582-5F3C-439B-A17F-B2B8CC34A13C}|Database_Systems_Project.csproj|solutionrelative:reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE12582-5F3C-439B-A17F-B2B8CC34A13C}|Database_Systems_Project.csproj|c:\\users\\wiki8\\desktop\\db\\22i-2469_22i-8808_project\\database_systems_project\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE12582-5F3C-439B-A17F-B2B8CC34A13C}|Database_Systems_Project.csproj|solutionrelative:reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReportForm.cs",
+              "DocumentMoniker": "C:\\Users\\wiki8\\Desktop\\DB\\22i-2469_22i-8808_Project\\Database_Systems_Project\\ReportForm.cs",
+              "RelativeDocumentMoniker": "ReportForm.cs",
+              "ToolTip": "C:\\Users\\wiki8\\Desktop\\DB\\22i-2469_22i-8808_Project\\Database_Systems_Project\\ReportForm.cs",
+              "RelativeToolTip": "ReportForm.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAmwDAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T06:17:29.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReportForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wiki8\\Desktop\\DB\\22i-2469_22i-8808_Project\\Database_Systems_Project\\ReportForm.cs",
+              "RelativeDocumentMoniker": "ReportForm.cs",
+              "ToolTip": "C:\\Users\\wiki8\\Desktop\\DB\\22i-2469_22i-8808_Project\\Database_Systems_Project\\ReportForm.cs [Design]",
+              "RelativeToolTip": "ReportForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T06:17:12.602Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wiki8\\Desktop\\DB\\22i-2469_22i-8808_Project\\Database_Systems_Project\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\wiki8\\Desktop\\DB\\22i-2469_22i-8808_Project\\Database_Systems_Project\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T18:29:43.785Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
