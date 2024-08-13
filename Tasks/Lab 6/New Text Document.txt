@@ -1,0 +1,90 @@
+Display the course name and instructor for all courses in the "Computer Science" department.
+sql
+Copy code
+SELECT courseName, instructor
+FROM Courses
+WHERE department = 'Computer Science';
+Display the course ID, course name, and department for courses offered in the Fall semester of any year.
+sql
+Copy code
+SELECT courseId, courseName, department
+FROM Courses
+WHERE semester = 'Fall';
+List all courses, including course name and year offered, sorted by year offered in descending order and course name in ascending order.
+sql
+Copy code
+SELECT courseName, yearOffered
+FROM Courses
+ORDER BY yearOffered DESC, courseName ASC;
+Display the details of courses that do not have an assigned instructor.
+sql
+Copy code
+SELECT *
+FROM Courses
+WHERE instructor IS NULL OR instructor = '';
+Display the course name, department, and instructor for courses offered by the "Mathematics" department, sorted by instructor name in ascending order.
+sql
+Copy code
+SELECT courseName, department, instructor
+FROM Courses
+WHERE department = 'Mathematics'
+ORDER BY instructor ASC;
+Show the department, instructor, and count of courses taught by each instructor in the "Engineering" department.
+sql
+Copy code
+SELECT department, instructor, COUNT(*) AS CoursesTaught
+FROM Courses
+WHERE department = 'Engineering'
+GROUP BY department, instructor
+ORDER BY CoursesTaught DESC;
+List the course name and year offered for courses that were offered between 2019 and 2023.
+sql
+Copy code
+SELECT courseName, yearOffered
+FROM Courses
+WHERE yearOffered BETWEEN 2019 AND 2023;
+Display the instructors who have taught more than three courses in a single year.
+sql
+Copy code
+SELECT instructor, yearOffered, COUNT(*) AS CoursesTaught
+FROM Courses
+GROUP BY instructor, yearOffered
+HAVING COUNT(*) > 3;
+Calculate the average number of courses offered in each department per semester.
+sql
+Copy code
+SELECT department, semester, AVG(CourseCount) AS AverageCourses
+FROM (SELECT department, semester, COUNT(*) AS CourseCount
+      FROM Courses
+      GROUP BY department, semester) AS CourseStats
+GROUP BY department, semester;
+Identify the department that offers the most courses and display the department name and the total number of courses offered.
+sql
+Copy code
+SELECT department, COUNT(*) AS TotalCourses
+FROM Courses
+GROUP BY department
+ORDER BY TotalCourses DESC
+LIMIT 1;
+List all courses with no enrollments, assuming there's an Enrollments table linking students to courses they've enrolled in.
+Assuming the Enrollments table exists and includes courseId, the query might look like:
+
+sql
+Copy code
+SELECT c.courseId, c.courseName
+FROM Courses c
+LEFT JOIN Enrollments e ON c.courseId = e.courseId
+WHERE e.courseId IS NULL
+GROUP BY c.courseId;
+These queries are crafted based on the task descriptions and provide a comprehensive approach to querying a relational database for specific information, offering valuable practice in SQL.
+
+
+
+sql
+Copy code
+SELECT courseId, courseName
+FROM Courses
+WHERE courseId NOT IN (
+    SELECT DISTINCT courseId
+    FROM Enrollments
+);

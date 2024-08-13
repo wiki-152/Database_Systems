@@ -1,0 +1,24 @@
+Customer_Id 
+First_name
+last_name
+gender
+phone_number
+city
+country
+Note
+
+//////////
+
+Order_id
+customer_id
+quantity
+price
+
+status
+
+total price
+
+0 means mandatory
+9 means not mandatory
+
+validation rule  = Is Not Null Or Like "*[a-z]*"
